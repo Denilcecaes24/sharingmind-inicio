@@ -1,0 +1,173 @@
+
+
+/*
+.mitad1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 50%;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+    pointer-events: none;
+    padding: 0;
+}
+*/
+
+.slidee {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    transition: opacity 2s ease-in-out;
+    opacity: 0;
+    -webkit-mask-image: linear-gradient(to right, rgb(255, 255, 255) 50%, rgba(255, 255, 255, 0) 95%);
+    mask-image: linear-gradient(to right, rgb(255, 255, 255) 50%, rgba(255, 255, 255, 0) 95%);
+}
+
+.slidee.active {
+    opacity: 0.8; /* Puedes ajustar la opacidad aquí si es necesario */
+}
+
+.slidee2 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    transition: opacity 2s ease-in-out;
+    opacity: 0;
+    -webkit-mask-image: linear-gradient(to left, rgb(255, 255, 255) 50%, rgba(255, 255, 255, 0) 95%);
+    mask-image: linear-gradient(to left, rgb(255, 255, 255) 50%, rgba(255, 255, 255, 0) 95%);
+}
+
+.slidee2.active {
+    opacity: 0.8; /* Puedes ajustar la opacidad aquí si es necesario */
+}
+
+
+.slidee3 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    transition: opacity 2s ease-in-out;
+    opacity: 0;
+    -webkit-mask-image: linear-gradient(to left, rgb(255, 255, 255) 50%, rgba(255, 255, 255, 0) 95%);
+    mask-image: linear-gradient(to left, rgb(255, 255, 255) 50%, rgba(255, 255, 255, 0) 95%);
+}
+
+.slidee3.active {
+    opacity: 0.8; /* Puedes ajustar la opacidad aquí si es necesario */
+}
+
+
+/*
+.contentt {
+    position: relative;
+    z-index: 10;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.cont-pp{
+    position: relative;
+    z-index: 1;
+    width: 90%;
+    max-width: 1200px;
+    height: 100%;
+    background-color:;
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.cont_fondo_transpp{
+    width: 60%;
+    max-width: 720px;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 5px;
+    
+}
+
+.box-logoss {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: start;
+}
+
+.box-logoss img {
+    width: 15%;
+    max-width: 100px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-logoss img:nth-child(1) {
+    margin-left: 5px;
+}
+
+
+.cont-div22{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin-top: 8px;
+    background-color: ;
+}
+
+*/
+
+
+@media ((min-width: 600px) and (max-width: 1024px)) {
+    .slidee {
+        -webkit-mask-image: linear-gradient(to bottom, rgb(255, 255, 255) 50%, rgba(255, 255, 255, 0) 95%);
+        mask-image: linear-gradient(to bottom, rgb(255, 255, 255) 50%, rgba(255, 255, 255, 0) 95%);
+    }
+
+    .slidee2 {
+        -webkit-mask-image: linear-gradient(to bottom, rgb(255, 255, 255) 50%, rgba(255, 255, 255, 0) 95%);
+        mask-image: linear-gradient(to bottom, rgb(255, 255, 255) 50%, rgba(255, 255, 255, 0) 95%);
+    }
+
+    .slidee3 {
+        -webkit-mask-image: linear-gradient(to bottom, rgb(255, 255, 255) 50%, rgba(255, 255, 255, 0) 95%);
+        mask-image: linear-gradient(to bottom, rgb(255, 255, 255) 50%, rgba(255, 255, 255, 0) 95%);
+    }
+}
+
+@media (max-width:599px) {
+    .slidee {
+       
+        -webkit-mask-image: linear-gradient(to bottom, rgb(255, 255, 255) 50%, rgba(255, 255, 255, 0) 95%);
+        mask-image: linear-gradient(to bottom, rgb(255, 255, 255) 50%, rgba(255, 255, 255, 0) 95%);
+    }
+
+    .slidee2 {
+        -webkit-mask-image: linear-gradient(to bottom, rgb(255, 255, 255) 50%, rgba(255, 255, 255, 0) 95%);
+        mask-image: linear-gradient(to bottom, rgb(255, 255, 255) 50%, rgba(255, 255, 255, 0) 95%);
+    }
+
+    .slidee3 {
+        -webkit-mask-image: linear-gradient(to bottom, rgb(255, 255, 255) 50%, rgba(255, 255, 255, 0) 95%);
+        mask-image: linear-gradient(to bottom, rgb(255, 255, 255) 50%, rgba(255, 255, 255, 0) 95%);
+    }
+}

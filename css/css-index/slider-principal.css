@@ -1,0 +1,283 @@
+/* slider casos */
+
+.cont_princ{
+    width: 100%;
+    height: 600px;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: ;
+}
+
+.cont_princ .cont_slider_auto_1{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    background-color: ;
+    margin: 0 auto;
+}
+
+.cont_princ .cont_slider_auto_1 .swiper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: ;
+    
+}
+
+.cont_princ .cont_slider_auto_1 .swiper-slide {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    padding: 50px 0;
+    border: 0;
+    position: relative;
+    border-radius: 0;
+
+    
+}
+
+
+
+
+.cont_princ .cont_slider_auto_1 .bg_img1 {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(/img/image.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    border-radius: 0px;
+
+}
+
+.cont_princ .cont_slider_auto_1 .bg_img2 {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(/img/14653.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    border-radius: 0px;
+
+}
+
+.cont_princ .cont_slider_auto_1 .bg_img3 {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(/img/jovenes-emprendedores-mod.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+}
+
+/*
+#seccioncasos  .box-casos-ex .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+    */
+/*
+    #seccioncasos .box-casos-ex .swiper-slide .pont {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;   
+    }
+*/
+
+.cont_princ .cont_slider_auto_1 .swiper-slide .box_for_slidtxt{
+    width: 90%;
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    background-color: ;
+}
+
+.cont_princ .cont_slider_auto_1 .swiper-slide .box_for_slidtxt .slider_txt {
+    width: 60%;
+    max-width: 720px;
+    height: auto;
+    background: linear-gradient(to right, rgba(32, 174, 240, 0.8), rgb(115, 231, 206, 0.8));
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    border-radius: 10px;
+    padding: 24px;
+    margin: 0;
+}
+
+
+.cont_princ .cont_slider_auto_1 .swiper-slide .slider_txt .txt_princ{
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    margin: 0 0 10px 0;
+}
+
+.cont_princ .cont_slider_auto_1 .swiper-slide .slider_txt p {
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: start;
+    background-color:;
+    padding: 0;
+    margin: 0;
+}
+
+.cont_princ .cont_slider_auto_1 .swiper-slide .box_for_slidtxt .slider_txt .pos_buttons{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding: 10px 0 0 0;
+    margin: 0;
+    background-color: ;
+    display: flex;
+    justify-content: start;
+}
+
+.cont_princ .cont_slider_auto_1 .swiper-slide .box_for_slidtxt .slider_txt .pos_buttons button{
+    width: auto;
+    height: auto;
+    padding: 8px 16px;
+    background-color: #fff;
+    border: 1px rgb(39, 151, 255) solid;
+    border-radius: 5px;
+    cursor: pointer;
+    color: rgb(39, 151, 255);
+    font-weight: 500;
+    font-size: 16px;
+}
+
+/*
+inicio
+negocios
+quienes somos
+blog
+*/
+
+.cont_princ .cont_slider_auto_1 .swiper-slide .box_for_slidtxt .slider_txt .pos_buttons button:hover{
+    border: 1px rgb(2, 98, 189) solid;
+    color: rgb(2, 98, 189);
+    background-color: #fff;
+    text-decoration: underline;
+}
+
+.cont_princ .cont_slider_auto_1 .swiper-slide .box_for_slidtxt .slider_txt .pos_buttons button:nth-child(1){
+    margin-right: 10px;
+}
+
+.cont_princ .cont_slider_auto_1 .swiper-slide .box_for_slidtxt .slider_txt .pos_buttons button:nth-child(2){
+    margin-left: 10px;
+}
+
+/*
+#seccioncasos .box-casos-ex .swiper {
+    margin-left: auto;
+    margin-right: auto;
+}
+*/
+
+.cont_princ .cont_slider_auto .swiper .swiper-button-prev::after,
+.swiper-button-next::after {
+    color: orange;
+}
+  
+.cont_princ .cont_slider_auto .swiper .swiper-button-prev {
+    left: 10px; /* Ajusta la posición horizontal según tus necesidades */
+
+  }
+  
+  .cont_princ .cont_slider_auto .swiper .swiper-button-next {
+    right: 10px; /* Ajusta la posición horizontal según tus necesidades */
+
+  }
+
+/*
+#seccioncasos .box-casos-ex .swiper .swiper-button-prev::after,
+.swiper-button-next::after {
+    color: green;
+}
+    */
+
+    .cont_princ .cont_slider_auto .swiper .swiper-pagination-bullet{
+    background-color: rgb(209, 209, 209);
+ }
+ 
+ .cont_princ .cont_slider_auto .swiper .swiper-pagination-bullet-active{
+     background-color: orange;
+  }
+
+  @media ((min-width: 600px) and (max-width: 1024px)) {
+    .cont_princ .cont_slider_auto_1 .swiper-slide .box_for_slidtxt {
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .cont_princ .cont_slider_auto_1 .swiper-slide .box_for_slidtxt .slider_txt {
+            width: 80%;
+            height: auto;
+            margin: 0 auto;
+        }
+
+        .cont_princ .cont_slider_auto_1 .swiper-slide .slider_txt .txt_princ{
+            font-size: 22px;
+        }
+
+        .cont_princ .cont_slider_auto_1 .swiper-slide .slider_txt p {
+            font-size: 15px;
+        }
+}
+
+
+  @media (max-width: 599px) {
+
+    .cont_princ{
+        width: 100%;
+        height: auto;
+        padding: 0 0 0 0;
+        margin: 0;
+        overflow: hidden;
+        background-color: ;
+    }
+
+    .cont_princ .cont_slider_auto_1 .swiper-slide .box_for_slidtxt  {
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .cont_princ .cont_slider_auto_1 .swiper-slide .box_for_slidtxt .slider_txt {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .cont_princ .cont_slider_auto_1 .swiper-slide .slider_txt .txt_princ{
+        font-size: 20px;
+    }
+
+    .cont_princ .cont_slider_auto_1 .swiper-slide .slider_txt p {
+        font-size: 14px;
+    }
+
+    .cont_princ .cont_slider_auto_1 .swiper-slide .box_for_slidtxt .slider_txt .pos_buttons button{
+        font-size: 14px;
+    }
+}
+

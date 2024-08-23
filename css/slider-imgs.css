@@ -1,0 +1,44 @@
+.secc-p{
+    margin: 15px 0;
+    display: flex;
+    /*height: vh;*/
+    background-color: transparent;
+}
+
+.container-caja{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#slider{
+    width: 1000px;
+    height: 150px;
+
+    background-image: url(../img/imgs-slider.png);
+    background-size: 100% 100%;
+
+    animation: slider 45s infinite linear;
+}
+
+@keyframes slider {
+    to{
+        background-position: 2000px;
+    }
+}
+
+
+@media ((min-width:669px) and (max-width:968px)) {
+    #slider{
+        width: 1300px;
+        height: 200px;
+    
+    }
+}
+
+@media (min-width:969px) {
+    #slider{
+        width: 2000px;
+        height: 300px;
+    }
+}

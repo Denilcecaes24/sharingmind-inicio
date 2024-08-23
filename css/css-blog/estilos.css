@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    font-size: 30px;
+    color: green;
+}
+
+.txt_styles {
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.txt_styles_bold {
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+
+.black {
+    color: black;
+    
+}
+
+.green {
+    color: rgb(51, 153, 51);
+    
+}
+
+.txt_center{
+    text-align: center;
+}
+
+.mb-10{
+    margin-bottom: 10px;
+}
+
+/* seccion */
+
+#seccion1{
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+    background-color: ;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+
+}
+
+.cont_title_cat{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    background-color: ;
+    overflow: hidden;
+}
+
+.box_title{
+    width: 100%;
+    height: auto;
+    background-color: ;
+    padding: 0;
+    margin: 0 0 16px 0;
+}
+
+.box_categ{
+    width: 100%;
+    height: auto;
+    background-color: ;
+    padding: 0;
+    margin: 0;
+}
+
+.list_cat{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+
+/* seccion 2*/
+
+#seccion2{
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+    background-color: ;
+}
+
+#seccion2 .cont_articles{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    background-color: ;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    overflow: hidden;
+}
+
+#seccion2 .art{
+    width: 32%;
+    min-width: 300px;
+    margin: 8px 0;
+    padding: 0;
+    background-color: ;
+    overflow: hidden;
+}
+
+#seccion2 .cont_articles .art h3 a{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#seccion2 .art img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+#seccion2 .art .cont_pad {
+    width: 100%;
+    height: auto;
+    padding: 16px;
+}
+
+#seccion2 .art .cont_pad div{
+    width: 100%;
+    height: auto;
+    background-color: ;
+    padding: 10px 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+
+#seccion2 .art div span{
+    color: white;
+    background-color: orange;
+    padding: 5px 10px;
+    margin: 0 5px;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
